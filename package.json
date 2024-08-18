@@ -1,7 +1,7 @@
 {
   "name": "vendure-plugin-channel-prices",
-  "version": "0.1.0",
-  "description": "Plugin template",
+  "version": "0.2.0",
+  "description": "Vendure plugin to retrieve all prices for a product across all channels",
   "author": "ARRRRNY",
   "repository": "https://github.com/arrrrny/vendure-plugin-channnel-prices",
   "license": "GPL-3.0-or-later",
