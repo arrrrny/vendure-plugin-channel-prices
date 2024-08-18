@@ -1,10 +1,9 @@
-### `README.md`
-
-```md
 # Vendure Plugin Channel Prices for Shop-API
 
-This package is a Vendure plugin that adds 'channelPrices' field to the ProductVariant entity.
-Displays the prices of the product variant for each channel.
+This package is a Vendure plugin that adds 'channelPrices'
+field to the ProductVariant entity.Displays the prices of
+the product variant for each channel.
+
 ## Installation
 
 ```sh
