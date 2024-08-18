@@ -1,9 +1,9 @@
 {
-  "name": "vendure-plugin-template",
-  "version": "1.0.0",
+  "name": "vendure-plugin-channel-prices",
+  "version": "0.1.0",
   "description": "Plugin template",
-  "author": "Martijn van de Brug <martijn@pinelab.studio>",
-  "repository": "https://github.com/vendure-ecommerce/plugin-template",
+  "author": "ARRRRNY",
+  "repository": "https://github.com/arrrrny/vendure-plugin-channnel-prices",
   "license": "GPL-3.0-or-later",
   "private": false,
   "engines": {
@@ -36,5 +36,13 @@
     "typescript": "5.3.3",
     "unplugin-swc": "^1.5.1",
     "vitest": "^2.0.4"
-  }
+  },
+  "keywords": [
+    "e-commerce",
+    "headless commerce",
+    "vendure",
+    "plugin",
+    "channels",
+    "channel prices"
+  ]
 }

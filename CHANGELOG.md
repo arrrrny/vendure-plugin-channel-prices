@@ -1,3 +1,4 @@
-# 0.0.1 
+# 0.1.0
 
-- Initial release
+- Initial release, released on an unsuspecting world.
+```

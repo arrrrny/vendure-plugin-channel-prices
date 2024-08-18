@@ -1,36 +1,15 @@
-# Vendure plugin template
+### `README.md`
 
-1. Copy this directory and rename to `vendure-plugin-YOUR-PLUGIN-NAME`
-2. Update the `name` and `description` field in `package.json`
-4. Update this Readme: What does the plugin do? How can someone use your plugin in their project?
-5. Run `npm install` to install the dependencies
-6. Run `npm run start` to start the server
+```md
+# Vendure Plugin Channel Prices for Shop-API
 
-The admin is now available at `http://localhost:3050/admin`. Login with _superadmin/superadmin_
+This package is a Vendure plugin that adds 'channelPrices' field to the ProductVariant entity.
+Displays the prices of the product variant for each channel.
+## Installation
 
-The shop GraphQL `http://localhost:3050/shop-api`. Here you can test your custom GraphQL query:
-```graphql
-{
-  exampleQuery
-}
+```sh
+npm install vendure-plugin-channel-prices
 ```
+## Contributing
 
-## Testing
-
-1. Run `npm run test` to run the e2e test.
-2. Don't forget to implement your own!
-
-## Publishing to NPM
-
-1. Make sure you are [logged in to NPM](https://docs.npmjs.com/cli/v9/commands/npm-login)
-2. `npm run build`
-3. `npm publish`
-
-That's it!
-
-(Maybe share your accomplishments in the [Vendure Discord](https://vendure.io/community)?
-
-## Next steps
-
-1. Check out [the docs](https://docs.vendure.io/guides/developer-guide/plugins/) to see the possibilities of a plugin
-2. Check out [GraphQL codegen](https://the-guild.dev/graphql/codegen) to generate Typescript types for your custom GraphQL types
+Contributions are welcome! Please open an issue or submit a pull request on the [GitHub repository](https://github.com/arrrrny/vendure-plugin-channel-prices).
