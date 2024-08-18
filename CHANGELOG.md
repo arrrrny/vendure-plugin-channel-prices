@@ -1,3 +1,6 @@
+# 0.3.0
+- Added createdAt and updatedAt fields to ChannelPrice
+
 # 0.2.1
 - Fixed typo in link to github
 

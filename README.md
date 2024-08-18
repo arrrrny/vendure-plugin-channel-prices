@@ -25,6 +25,62 @@ const config = {
   ],
 };
 ```
+
+## Usage
+
+```graphql
+query{
+  product(id:"1"){
+    variants{
+      id
+      price
+      channelPrices{
+        price
+        currencyCode
+        channelId
+      }
+    }
+  }
+}
+```
+### Example Response
+  ```json
+{
+  "data": {
+    "product": {
+      "id": "1",
+      "variants": [
+        {
+          "id": "1",
+          "price": 129900,
+          "channelPrices": [
+            {
+              "price": 129900,
+              "currencyCode": "USD",
+              "channelId": "1"
+            },
+            {
+              "price": 124704,
+              "currencyCode": "TRY",
+              "channelId": "2"
+            },
+            {
+              "price": 116910,
+              "currencyCode": "TRY",
+              "channelId": "3"
+            },
+            {
+              "price": 171468,
+              "currencyCode": "TRY",
+              "channelId": "4"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+```
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request on the [GitHub repository](https://github.com/arrrrny/vendure-plugin-channel-prices).

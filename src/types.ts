@@ -2,5 +2,7 @@ export type ChannelPrice = {
   price: number;
   currencyCode: string;
   channelId: string;
-  customFields?: any;
+  createdAt: Date;
+  updatedAt: Date;
+  customFields?: { [key: string]: any };
 };
